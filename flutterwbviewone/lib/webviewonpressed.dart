@@ -1,3 +1,5 @@
+//Pressing the Floating Action Button redirects to another page.
+
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
