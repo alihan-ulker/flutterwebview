@@ -40,17 +40,13 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: WebView(
         //Website to display.
-        initialUrl: 'http://ulkerlihan.com',
+        initialUrl: 'https://amazon.com',
 
         //javascript activated
         javascriptMode: JavascriptMode.unrestricted,
 
         onWebViewCreated: (controller) {
           this.controller = controller;
-        },
-        //The new website address is displayed in the debug console.
-        onPageStarted: (url) {
-          print("New website: $url");
         },
       ),
       //To go to the new page.
