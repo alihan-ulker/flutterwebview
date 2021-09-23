@@ -1,3 +1,5 @@
+//Hides the Header and Footer parts of the website.
+
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
