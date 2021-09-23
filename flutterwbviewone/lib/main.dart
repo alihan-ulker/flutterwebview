@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: WebView(
         //Website to display.
-        initialUrl: 'https://amazon.com',
+        initialUrl: 'http://ulkeralihan.com',
 
         //javascript activated
         javascriptMode: JavascriptMode.unrestricted,
