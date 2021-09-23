@@ -1,3 +1,9 @@
+//First, the "webview_flutter:" plugin is added to the pubspec.yaml file.
+//Second, the android/app/build.gradle file should have defaultconfig{ minSdkVersion 20 }.
+//If you want to open http, for ANDROID you should add them to
+//android/app/src/main/AndroidManifest.xml file, in as
+// android:usesCleartextTraffic="true"
+
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
