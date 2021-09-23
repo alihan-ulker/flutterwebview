@@ -30,7 +30,7 @@ If you want to open http, for ANDROID you should add them to
 android/app/src/main/AndroidManifest.xml file, in as
 
                           android:usesCleartextTraffic="true".
-////////////////////////////*******************//////////////////////////////////////
+******************************************************************************************************
 
 If you want to open http, for IOS, put them in ios/Runner/Info.plist file,
 
